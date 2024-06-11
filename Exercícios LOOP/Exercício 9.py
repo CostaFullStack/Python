@@ -10,7 +10,7 @@ while True:
         print('Nota inválida! Por favor, informe uma nota entre 0 e 10!')
 
     else:
-        # Caso o usuário digite uma nota entre 0 e 10 (nota <= 10 and nota >= 0), uma mensagem de nota válida aparece. 
+        # Caso o usuário digite uma nota entre 0 e 10 (nota <= 10 and nota >= 0), uma mensagem de nota aparece. 
         print(f'Nota digitada:\n{nota}')
         # Encerrando o loop.
         break
