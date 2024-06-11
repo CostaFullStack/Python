@@ -4,7 +4,7 @@
 while True:
     # Pedindo ao usuário para digitar uma nota, utilizando a classe float. 
     nota = float(input('Digite uma nota entre 0 e 10: '))
-    # Utilizando a estrutura condicional IF, e ELSE para determinar se a nota digitada está ou não entre 0 e 10   
+    # Utilizando a estrutura condicional IF e ELSE para determinar se a nota digitada está ou não entre 0 e 10   
     # Utilizando o operador de comparação ">" para verificar se a nota digitada é maior que 10 e o operador de comparação "<" para verificar se a nota digitada é menor que 0. Caso o usuário digite uma nota que não atenda a essas "exigências", uma mensagem de erro aparece, se repetindo até que o usuário digite uma nota entre 0 e 10.
     if nota > 10 or nota < 0:
         print('Nota inválida! Por favor, informe uma nota entre 0 e 10!')
