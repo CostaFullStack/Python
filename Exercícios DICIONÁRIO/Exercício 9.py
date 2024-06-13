@@ -4,8 +4,8 @@ lista_pessoas = [{'Nome': 'Ana', 'Idade': 16}, {'Nome': 'João', 'Idade': 30}, {
 
 nova_lista = []
 
-for menor in lista_pessoas:
-    if menor['Idade'] < 18:
-        nova_lista.append(menor['Nome'])
+for nome_da_vez in lista_pessoas:
+    if nome_da_vez['Idade'] < 18:
+        nova_lista.append(nome_da_vez['Nome'])
 
-print(f'Lista atualizada com menores de 18 anos: \n{nova_lista}')
+print(f'Lista com menores de 18 anos: \n{nova_lista}')
