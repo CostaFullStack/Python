@@ -1,6 +1,11 @@
 # Questão 08) Dado o dicionário pessoas = {'João': 25, 'Maria': 30, 'Pedro': 22, 'Ana': 28}, mostre qual nome da pessoa mais velha;
 
-dicionario_pessoas = {'João': 25, 'Maria': 30, 'Pedro': 22, 'Ana': 28}
+dicionario_pessoas = {
+'João': 25, 
+'Maria': 30, 
+'Pedro': 22, 
+'Ana': 28
+}
 
 nome_mais_velho = ""
 idade_mais_velho = float('-inf')
