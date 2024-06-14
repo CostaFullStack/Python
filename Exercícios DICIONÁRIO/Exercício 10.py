@@ -11,9 +11,9 @@ novo_dicionario = {}
 
 for _ in range(3):
     nome_fruta = str(input(f'Digite o nome da {_+1}ª fruta: '))
-    qtd_fruta = int(input('Digite a quantidade: '))
+    qtd_fruta = int(input(f'Digite a quantidade da fruta {nome_fruta}: '))
     novo_dicionario[nome_fruta] = qtd_fruta
 
 dicionario_estoque.update(novo_dicionario)
 
-print(f"Estoque atualizado: \n{dicionario_estoque}")
+print(f'Dicionário com as novas frutas adicionadas: \n{dicionario_estoque}')
