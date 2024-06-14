@@ -12,11 +12,11 @@ for aluno_da_vez in dicionario_alunos:
     nome = aluno_da_vez['Nome']
     nota = aluno_da_vez['Notas']
     media = sum(nota) / len(nota)
-    lista_vazia.append({'nome': nome, 'media': media})
+    lista_vazia.append({'Nome': nome, 'Media': media})
 
-lista_vazia.sort(key=lambda aluno:aluno['media'])
+lista_vazia.sort(key=lambda aluno:aluno['Media'])
 
 print('Média dos alunos em ordem crescente:')
 
 for aluno in lista_vazia:
-    print(f"{aluno['nome']}: {aluno['media']:.1f}")
+    print(f"{aluno['Nome']}: {aluno['Media']:.1f}")
