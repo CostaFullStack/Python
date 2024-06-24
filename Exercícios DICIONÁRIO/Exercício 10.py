@@ -17,7 +17,7 @@ for _ in range (3):
     # Pedindo ao usuário para digitar nome e a quantidade da fruta, utilizando a classe "str" e "int". 
     nome_fruta = str(input('Digite o nome da fruta: '))
     qtd_fruta = int(input(f'Digite a quantidade da fruta {nome_fruta}: '))
-    # Adicionando os nomes das frutas digitados na variável "nome_fruta" como "chave" no dicionário "estoque" e as quantidades na variável "qtd_fruta" como "valor".
+    # Adicionando os nomes das frutas digitados na variável "nome_fruta" como "chave" no dicionário "estoque" e as quantidades digitadas na variável "qtd_fruta" como "valor".
     estoque[nome_fruta] = qtd_fruta
 
 # Utilizando o método "update" para adicionar as "chaves" e "valores" no novo dicionário "estoque_novo". 

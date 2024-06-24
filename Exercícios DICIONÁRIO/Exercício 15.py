@@ -40,7 +40,7 @@ while True:
                 # Utilizando a estrutura condicional IF e ELSE para determinar se o nome está ou não no dicionário "estoque".
                 # Utilizando o operador de associação "in" para a condição retornar verdadeira (True).
                 if nome_produto in estoque:
-                    # Adicionando o nome do produto digitado na variável "nome_produto" como "chave" no dicionário "estoque" e realizando a soma das undidades na variável "qtd_produto" como "valor".
+                    # Adicionando o nome do produto digitado na variável "nome_produto" como "chave" no dicionário "estoque" e realizando a soma das undidades digitadas na variável "qtd_produto" como "valor".
                     estoque[nome_produto] += qtd_produto
                     # Mostrando na tela o nome do produto com a unidade adicionada.
                     print(f'{qtd_produto} unidades do produto "{nome_produto}" adicionadas com sucesso!')                   
@@ -55,7 +55,7 @@ while True:
                 # Utilizando o operador de associação "in" para a condição retornar verdadeira (True).
                 # Utilizando o operador lógico "and" para a condição retornar verdadeira (True) se ambas as afirmações forem verdadeiras. Caso a quantidade de unidades da chave no dicionário "estoque[nome_produto]" seja maior ou igual (>=) que as unidades do valor "qtd_produto", imprime a mensagem informando que as unidades do produto foram removidas.
                 if nome_produto in estoque and estoque[nome_produto] >= qtd_produto:
-                    # Adicionando o nome do produto digitado na variável "nome_produto" como "chave" no dicionário "estoque" e realizando a subtração das unidades na variável "qtd_produto" como "valor".
+                    # Adicionando o nome do produto digitado na variável "nome_produto" como "chave" no dicionário "estoque" e realizando a subtração das unidades digitadas na variável "qtd_produto" como "valor".
                     estoque[nome_produto] -= qtd_produto
                     # Mostrando na tela o nome do produto com a unidade removida.
                     print(f'{qtd_produto} unidades do produto "{nome_produto}" removidas com sucesso!')
