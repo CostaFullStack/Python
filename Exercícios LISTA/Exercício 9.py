@@ -1,6 +1,6 @@
 # Questão 09) Dada a lista [2, 8, 15, 5, 3, 6, 1] remova todos os elementos maiores que 5 e depois mostre a lista atualizada.
 
-# Criando uma lista com floats de números.
+# Criando uma lista com classes floats de números.
 lista_numeros = [2, 8, 15, 5, 3, 6, 1]
 # Criando uma lista vazia para armazenar os números.
 nova_lista = []

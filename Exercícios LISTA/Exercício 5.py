@@ -16,6 +16,7 @@ for maior in lista_numeros:
     # Utilizando a estrutura condicional "if" para determinar o maior número.
     # Utilizando o operador de comparação ">" para comparar cada número na lista "lista_numeros" com a variável "maior_numero".
     if maior > maior_numero:
+        # Igualando a variável "maior_numero" a variável "maior" para realizar o maior número, percorrendo sobre a lista "lista_numeros".
         maior_numero = maior
 
 print(f'O maior número digitado foi: {maior_numero}')

@@ -22,5 +22,5 @@ else:
 # Criando a variável "novo_salario" para calcular o novo salário com o reajuste.
 novo_salario = salario + salario_reajuste
 
-    # Utilizando a formatação de string para arredodar uma casa decimal. Por exemplo: ".1f" seriam uma casa decimal e etc.
+# Utilizando a formatação de string para arredodar uma casa decimal. Por exemplo: ".1f" seria uma casa decimal e etc.
 print(f'O salário reajustado é de: R${novo_salario:.1f}')

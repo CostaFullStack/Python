@@ -1,7 +1,6 @@
 # Questão 08) Faça um programa que pede para o usuário digitar 10 números inteiros e mostre na tela qual menor número que foi digitado.
 
-# Iniciando uma variável igual a float("inf") chamada "menor" para realizar o menor número percorrendo pela estrutura de repetição FOR.
-# 'float("inf")' é infinito. Não existe número maior.
+# Iniciando uma variável igual a float("inf") chamada "menor" para realizar o menor número percorrendo pela estrutura de repetição FOR. 'float("inf")' é infinito. Não existe número maior.
 menor = float("inf")
 # Utilizando o operador de associação "in" e utilizando a estrutura de repetição FOR com range (alcance) de 1 a 11. O fim (número 11) é exclusivo, então será gerada uma sequência de números de 1 a 10 para verificar o menor número.
 for i in range(1,11):
@@ -10,6 +9,7 @@ for i in range(1,11):
     # Utilizando a estrutura condicional "if" para determinar o menor número.
     # Utilizando o operador de comparação "<" para verificar qual é o menor número digitado.
     if numeros < menor:
+        # Igualando a variável "menor" a variável "numeros" para realizar o menor número digitado percorrendo sobre o a variável "numeros".
         menor = numeros
 
 print(f'O menor número digitado foi: {menor}')

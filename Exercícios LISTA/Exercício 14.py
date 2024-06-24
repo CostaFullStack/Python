@@ -1,8 +1,9 @@
 # Questão 14) Dadas as listas [5, 1, 9, 3, 4, 7] e [1, 8, 2, 7, 5, 0] faça uma varredura e crie uma nova lista contendo apenas os números que estejam contidos nas duas listas.
 
-# Criando duas listas com ints de números.
+# Criando duas listas com classes ints.
 lista_numeros1 = [5, 1, 9, 3, 4, 7]
 lista_numeros2 = [1, 8, 2, 7, 5, 0] 
+
 # Criando uma lista vazia para armazenar os números e deixar os apenas os contidos nas duas listas.
 nova_lista = []
 

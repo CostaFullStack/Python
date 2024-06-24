@@ -1,11 +1,17 @@
 # Questão 04) Crie um dicionário chamado aluno com as chaves 'nome', 'notas' e 'faltas'. A chave 'notas' deve conter uma lista de três notas. Imprima a média das notas.
 
-dicionario_aluno = {
-'Nome': str(input('Digite o nome do aluno: ')),
-'Notas': [8,9,10], 
-'Faltas': int(input('Digite a quantidade de faltas: '))
+# Criando um dicionário com nome "aluno".
+aluno = {
+# Utilizando a classe "str" e adicionando as "chaves" com seus respectivos "valores" utilizando a classe "str", uma "lista" contendo números com a classe "float".
+'nome': 'Matheus Costa Gomes',
+'notas': [9.3, 8.5, 7.0],
+'faltas': 3
 }
 
-media = sum(dicionario_aluno['Notas']) / len(dicionario_aluno['Notas'])
+# Utilizando a função "sum" para retornar a soma dos itens da lista contidas nos "valores" de "notas".
+# Utilizando a função "len" para retornar o número de itens da lista contidas nos "valores" de "notas".
+media = sum(aluno['notas']) / len(aluno['notas'])
 
-print(f'A média do aluno {dicionario_aluno["Nome"]} é de: {media:.1f}')
+# Mostrando na tela a média do aluno com a variável "media".
+# Utilizando a formatação de string para arredodar uma casa decimal. Por exemplo: ".1f" seria uma casa decimal e etc.
+print(f'Média do aluno {aluno["nome"]}: \n{media:.1f}')

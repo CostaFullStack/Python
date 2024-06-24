@@ -1,6 +1,6 @@
 # Questão 07) Dada a lista palavras = ['python', 'java', 'c++', 'javascript'], crie uma nova lista contendo o número de caracteres de cada palavra. Imprima a lista resultante item por item.
 
-# Criando uma lista com strings de linguagens de programação.
+# Criando uma lista com classes strings de linguagens de programação.
 lista_palavras = ['Python', 'Java', 'C++', 'Javascript']
 # Criando uma lista vazia para armazenar os números de caracteres de cada palavra.
 nova_lista = []

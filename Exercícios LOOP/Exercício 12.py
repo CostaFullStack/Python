@@ -17,18 +17,18 @@ Bem vindo ao menu! Por favor, digite umas das opções abaixo:
 0 - Sair
 
 """))
-        # Utilizando match e case para fazer as operações
+        # Utilizando match e case para fazer as operações.
         match menu:
-            # Se o usuário digitar o número '1'do menu, será feita a soma das variáveis
+            # Se o usuário digitar o número '1'do menu, será feita a soma das variáveis.
             case 1:
                 print(primeiro_numero + segundo_numero)
-            # Se o usuário digitar o número '2'do menu, será feita a subtração das variáveis
+            # Se o usuário digitar o número '2'do menu, será feita a subtração das variáveis.
             case 2:
                 print(primeiro_numero - segundo_numero)
-            # Se o usuário digitar o número '3'do menu, será feita a multiplicação das variáveis
+            # Se o usuário digitar o número '3'do menu, será feita a multiplicação das variáveis.
             case 3:
                 print(primeiro_numero * segundo_numero)
-            # Se o usuário digitar o número '4'do menu, será feita a divisão das variáveis
+            # Se o usuário digitar o número '4'do menu, será feita a divisão das variáveis.
             case 4:
                 # Utilizando a estrutura condicional IF e ELSE para verificar se o usuário digitou 0 no segundo número.
                 # Utilizando o operador de comparação "==" para a condição retornar verdadeira (True). Caso o número seja igual (==) a 0, aparece a mensagem de erro.
@@ -45,7 +45,7 @@ Bem vindo ao menu! Por favor, digite umas das opções abaixo:
             # Se o usuário digitar um número que não está no menu, aparecerá uma mensagem de erro.
             case _:
                 print('Opção inválida. Por favor, digite uma opção válida!')
-    # Caso o usuário não digite números, aparecerá uma mensagem de erro.
+    # Se o usuário não digitar números, aparecerá uma mensagem de erro.
     except ValueError:
         print('Erro! Digite apenas números!')
         

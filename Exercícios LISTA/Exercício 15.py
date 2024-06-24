@@ -1,6 +1,6 @@
 # Questão 15) Dada a lista produtos =[('Mouse', 25.99), ('Teclado',59.99), ('Mousepad', 15.99), ("Monitor", 600.00),("Fone de Ouvido", 110.50)], ordene a lista com base no segundo elemento de cada tupla (o preço) em ordem crescente.
 
-# Criando uma lista com tuplas contendo ints e strs.
+# Criando uma lista com tuplas contendo classes ints e strs.
 lista_produtos =[('Mouse', 25.99), ('Teclado',59.99), ('Mousepad', 15.99), ("Monitor", 600.00),("Fone de Ouvido", 110.50)]
 # Criando uma lista vazia para armazenar apenas os números contidos na lista.
 nova_lista = []

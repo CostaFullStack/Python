@@ -8,7 +8,7 @@ soma = 0
 for nota in lista_notas:
     # Realizando a soma das notas
     soma += nota
-# Utilizando a função len para retornar o número de itens da lista "lista_notas".
+# Utilizando a função "len" para retornar o número de itens da lista "lista_notas".
 media = soma / len(lista_notas)
-# Utilizando a formatção de string para arredodar uma casa decimal. Por exemplo: ".1f" seria uma casa e etc.
+# Utilizando a formatação de string para arredodar uma casa decimal. Por exemplo: ".1f" seria uma casa e etc.
 print(f'Media das notas: {media:.1f}')

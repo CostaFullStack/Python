@@ -1,6 +1,6 @@
 # Questão 10) Crie duas listas, lista1 e lista2, cada uma com pelo menos 5 elementos. Em seguida, concatene as duas listas e imprima a lista resultante.
 
-# Criando duas lista com elementos string,float,booleano e int.
+# Criando duas listas com classes str, float, booleano e int.
 lista1 = ["Django", 5, True, 4.5, "Python"]
 lista2 = [33.8, False, 20, "HTML", "CSS"]
 

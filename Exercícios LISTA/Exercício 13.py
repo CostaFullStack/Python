@@ -1,6 +1,6 @@
 # Questão 13) Dada a lista [4, 6, 8, 5, 6, 3, 4, 7, 9, 4, 8] remova todas as duplicatas (números repetido) e mostre a nova lista apenas com itens únicos.
 
-# Criando uma lista com floats de números, alguns repetidos.
+# Criando uma lista com classes floats, alguns repetidos.
 lista_numeros = [4, 6, 8, 5, 6, 3, 4, 7, 9, 4, 8]
 # Criando uma lista vazia para armazenar os números e deixar os únicos.
 nova_lista = []

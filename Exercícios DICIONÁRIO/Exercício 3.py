@@ -1,12 +1,16 @@
 # Questão 03) Dado o dicionário estoque = {'maçã': 10, 'banana': 5, 'laranja': 8, 'uva': 12}, remova a entrada correspondente à 'laranja' e imprima o dicionário atualizado.
 
-dicionario_estoque = {
-'Maçã': 10, 
-'Banana': 5, 
-'Laranja': 8, 
-'Uva': 12
+# Criando um dicionário com nome "estoque" 
+estoque = {
+# Utilizando a classe "str" e adicionando as "chaves" com seus respectivos "valores" utilizando a classe "int".
+'maçã': 10, 
+'banana': 5, 
+'laranja': 8, 
+'uva': 12
 }
 
-del dicionario_estoque['Laranja']
+# Deletando a entrada com "chave" igual a "laranja" do dicionário "estoque".
+del estoque['laranja']
 
-print(f'Dicionário atualizado: \n{dicionario_estoque}')
+# Mostrando na tela o dicionário atualizado com a chave "laranja" removida.
+print(f'Dicionário atualizado: \n{estoque}')

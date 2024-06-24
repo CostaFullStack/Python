@@ -1,4 +1,4 @@
-# Faça um programa que pede para o usuário digitar uma senha e cheque se a senha digitada é uma senha forte
+# Faça um programa que pede para o usuário digitar uma senha e cheque se a senha digitada é uma senha forte.
 # Regras para um senha forte:
 # 8 ou mais caracteres
 # Pelo menos 1 letra minúscula
